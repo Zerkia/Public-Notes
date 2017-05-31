@@ -1,8 +1,8 @@
 <!-- MENU THAT CHANGES UPON BEING LOGGED IN AND LGOGED OUT -->
 <?php
 	if(secIsLoggedIn() && secCheckLevel() >= 90){
-                            echo '<li><a href="index.php?side=bruger">Brugere</a></li>';
-                            echo '<li><a href="index.php?side=opretInstruktor">Opret instruktør</a></li>';
+		echo '<li><a href="index.php?side=bruger">Brugere</a></li>';
+               	echo '<li><a href="index.php?side=opretInstruktor">Opret instruktør</a></li>';
 	}
 
   	if(!secIsLoggedIn()) {
