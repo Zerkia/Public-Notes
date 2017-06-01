@@ -1,2 +1,2 @@
 # Public-Notes
-Notes for others
+Notes for others about the dance school project
