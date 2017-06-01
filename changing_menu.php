@@ -1,4 +1,4 @@
-<!-- MENU THAT CHANGES UPON BEING LOGGED IN AND LGOGED OUT -->
+<!-- MENU THAT CHANGES UPON BEING LOGGED IN AND LOGGED OUT -->
 <?php
 	if(secIsLoggedIn() && secCheckLevel() >= 90){
 		echo '<li><a href="index.php?side=bruger">Brugere</a></li>';
